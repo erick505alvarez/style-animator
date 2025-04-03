@@ -1,15 +1,54 @@
 /* button 3 */
-/* .button-3 {
-
-} */
+.button-3 {
+    color: #262626;
+    font-size: 45px;
+    letter-spacing: 2px;
+    border: 3px solid #262626;
+    position: relative;
+    transition: 500ms;
+    text-align: center;
+    overflow: hidden;
+}
+.button-3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 100%;
+    background-color: #262626;
+    transition: 500ms;
+    transform: rotateX(90deg);
+    z-index: -1;
+}
+.button-3:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    transition: 500ms;
+    transform: rotateY(90deg);
+    z-index: -1;
+}
+.button-3:hover:before {
+    transform: rotateX(0deg);
+}
+.button-3:hover:after {
+    transform: rotateY(40deg);
+}
+.button-3:hover {
+    color: white;
+}
 
 /* button 2 */
 .button-2 {
     color: #351435;
     font-size: 40px;
     border: 3px solid #351435;
-    padding: 40px 80px;
-    position: relative;
+    /* padding: 40px 80px; */
     transition: all 200ms;
     overflow: hidden;
 }
@@ -37,8 +76,8 @@
     color: #272727;
     font-size: 45px;
     border: 5px solid #272727;
-    padding: 40px 80px;
-    position: relative;
+    /* padding: 40px 80px; */
+    /* position: relative; */
     overflow: hidden;
 }
 .button-1:before {
