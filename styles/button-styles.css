@@ -1,3 +1,46 @@
+/* button 10 */
+/* #24 */
+
+/* button 9 */
+/* #23 */
+.button-9 {
+    border: 2px solid tomato;
+    color: tomato;
+    padding: 20px 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    /* cursor: pointer; */
+    transition: all 0.5s;
+    position: relative;
+    color: tomato;
+    overflow: hidden;
+}
+.button-9:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: tomato;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    height: 0%;
+    transition: all 0.5s;
+}
+.button-9:hover:before {
+    height: 190%;
+}
+.button-9:hover {
+    color: white;
+}
+
+/* button 8 */
+/* #22 */
+
+/* button 7 */
+/* #21 */
+
 /* button 6 */
 .button-6 {
     font-size: 40px;
