@@ -1,6 +1,64 @@
+/* button 21 */
+/* #35 */
+.button-21 {
+    position: relative;
+    text-transform: uppercase;
+    padding: 25px 50px;
+    background-color: #777;
+    color: white;
+    border-radius: 100px;
+    font-size: 24px;
+    transition: all 0.2s;
+}
+.button-21:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #777;
+    border-radius: 100px;
+    transition: all 0.4s;
+    z-index: -1;
+}
+.button-21:hover:before {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.button-21:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.button-21:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* button 20 */
+/* #34 */
+
+/* button 19 */
+/* #33 */
+
+/* button 18 */
+/* #32 */
+
+/* button 17 */
+/* #31 */
+
+/* button 16 */
+/* #30 */
+
+/* button 15 */
+/* #29 */
+
+/* button 14 */
+/* #28 */
+
 /* button 13 */
 /* #27 */
-
 
 /* button 12 */
 /* #26 */
