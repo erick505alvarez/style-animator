@@ -1,3 +1,76 @@
+/* button 13 */
+/* #27 */
+
+
+/* button 12 */
+/* #26 */
+.button-12 {
+    padding: 0;
+    width: 220px;
+    height: 80px;
+    color: #0F0;
+    background-color: transparent;
+    font-size: 26px;
+    text-align: center;
+    line-height: 80px;
+    transition: all 0.5s;
+    position: relative;
+}
+.button-12:before,
+.button-12:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #0F0;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+    z-index: -1;
+    opacity: 0;
+}
+.button-12:before {
+    left: 0;
+    box-shadow: -100px 0 0 #0F0;
+}
+.button-12:after {
+    right: 0;
+    box-shadow: 100px 0 0 #0F0;
+}
+.button-12:hover:before {
+    left: 50%;
+    box-shadow: 30px 0 0 #0F0;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 1;
+}
+.button-12:hover:after {
+    right: 50%;
+    box-shadow: -30px 0 0 #0F0;
+    transform: translateX(50%) translateY(-50%);
+    opacity: 1;
+}
+.button-12 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0F0;
+    border-radius: 8px;
+    transform: scale(0);
+    transition: all 0.3s;
+    z-index: -1;
+}
+.button-12:hover span {
+    transform: scale(1);
+    transition-delay: 0.4s;
+}
+.button-12:hover {
+    color: #262626;
+    transition-delay: 0.4s;
+}
+
 /* button 11 */
 /* #25 */
 .button-11 {
