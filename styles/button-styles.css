@@ -1,3 +1,35 @@
+/* button 6 */
+.button-6 {
+    
+}
+
+
+/* button 5 */
+.button-5 {
+    font-size: 40px;
+    line-height: 40px;
+    border: 4px solid #222;
+    overflow: hidden;
+    position: relative;
+}
+.button-5:before {
+    content: 'YEAH!';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #F44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: 300ms;   
+}
+.button-5:hover:before {
+    transform: translateY(0);
+}
+
 /* button 4 */
 .button-4 {
     color: #E1332D;
