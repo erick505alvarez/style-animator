@@ -1,3 +1,21 @@
+/* button 4 */
+.button-4 {
+    color: #E1332D;
+    font-size: 40px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    border: 3px solid #E1332D;
+    position: relative;
+    transition: 300ms;
+}
+.button-4:hover {
+    font-weight: 900;
+    letter-spacing: 10px;
+    border: 7px solid #E1332D;
+}
+
 /* button 3 */
 .button-3 {
     color: #262626;
